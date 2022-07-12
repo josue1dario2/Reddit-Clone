@@ -1,2 +1,4 @@
-package com.clon.reddit.model;public class Vote {
+package com.clon.reddit.model;
+
+public class Vote {
 }

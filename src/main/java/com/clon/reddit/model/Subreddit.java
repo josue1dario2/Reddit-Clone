@@ -1,2 +1,4 @@
-package com.clon.reddit.model;public class Subreddit {
+package com.clon.reddit.model;
+
+public class Subreddit {
 }
