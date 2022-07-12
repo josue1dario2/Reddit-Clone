@@ -1,2 +1,9 @@
-package com.clon.reddit.repository;public interface UserRepository {
+package com.clon.reddit.repository;
+
+import com.clon.reddit.model.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository extends JpaRepository<User,Integer> {
 }
